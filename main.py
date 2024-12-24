@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-sorted
-=======
 import tkinter as tk
 from tkinter import messagebox
 
@@ -40,4 +37,3 @@ def calculate_flames():
     }
     result = result_map[flames[0]]
     result_label.config(text=f"Result: {result}")
->>>>>>> ad1317fc82834281bf38383e823e0f4e24667558

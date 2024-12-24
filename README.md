@@ -1,7 +1,14 @@
+
 # FLAMES Relationship Calculator
 
 ## 💖 About the Project
 The *FLAMES Relationship Calculator* is a fun and interactive Python application that uses the FLAMES algorithm to calculate the relationship between two names. Whether you're curious about "Friendship," "Love," "Affection," "Marriage," "Enemy," or "Sibling" connections, this tool brings a nostalgic charm to your relationships.
+=======
+# FLAMES Calculator
+
+## 💖 About the Project
+The *FLAMES Calculator* is a fun and interactive Python application that uses the FLAMES algorithm to calculate the relationship between two names. Whether you're curious about "Friendship," "Love," "Affection," "Marriage," "Enemy," or "Sibling" connections, this tool brings a nostalgic charm to your relationships.
+
 
 ## 🚀 Features
 - *User-Friendly Interface:* Built using Tkinter for an intuitive experience.

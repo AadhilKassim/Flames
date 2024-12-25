@@ -20,3 +20,55 @@ The *FLAMES Calculator* is a fun and interactive Python application that uses th
    - Uses the count to eliminate letters in the word "FLAMES" cyclically.
 3. *View Result:* See the relationship type displayed on the screen.
 4. *Reset:* Clear inputs and start fresh anytime.
+
+## 🛠 Installation and Usage
+### Prerequisites
+- Python 3.x
+- Tkinter (comes pre-installed with Python on most systems)
+
+### Steps
+1. **Clone the Repository:**
+   bash
+   git clone https://github.com/AadhilKassim/Flames
+   cd flames
+   
+2. **Run the Application:**
+   bash
+   python main.py
+   
+3. **Enjoy the Fun!**
+
+## 🔮 The FLAMES Algorithm
+The algorithm eliminates letters in the word "FLAMES" using the total count of remaining characters from two names. The last remaining letter determines the relationship:
+- **F:** Friendship
+- **L:** Love
+- **A:** Affection
+- **M:** Marriage
+- **E:** Enemy
+- **S:** Sibling
+
+## 📖 Code Highlights
+- **FLAMES Logic:** A simple yet efficient implementation of the classic algorithm.
+- **Dynamic UI:** Tkinter-powered layout for interactive inputs and outputs.
+- **Error Handling:** Ensures both names are entered before proceeding.
+
+## 📝 Future Improvements
+- Add **themes** for a customizable look and feel.
+- Include **multilingual support** for broader accessibility.
+- Save results to a **local history** for later reference.
+
+## 🤝 Contributing
+Contributions, bug reports, and feature requests are welcome! Feel free to fork the repository and submit a pull request.  
+
+## 📧 Contact
+Have questions or suggestions? Feel free to reach out:
+- **GitHub:** 
+    - [Aadhil Kassim](https://github.com/AadhilKassim)
+    - [Aakash Rajeev](https://github.com/aakshpy)
+    - [Aaron Sony](https://github.com/Aaron-techy)
+    - [Aswin Krishna](https://github.com/Aswinkrishna77)
+
+---
+
+Start your FLAMES adventure today and see where your relationships lead! ✨
+

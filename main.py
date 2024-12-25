@@ -37,3 +37,36 @@ def calculate_flames():
     }
     result = result_map[flames[0]]
     result_label.config(text=f"Result: {result}")
+# Define the reset functionality
+def reset_fields():
+    entry1.delete(0, tk.END)
+    entry2.delete(0, tk.END)
+    result_label.config(text="")
+# Create the main Tkinter window
+root = tk.Tk()
+root.title("FLAMES Relationship Calculator")
+root.geometry("400x400")
+root.resizable(False, False)
+# Input fields
+label1 = tk.Label(root, text="Enter Your Name:", font=("Arial", 12))
+label1.pack(pady=10)
+entry1 = tk.Entry(root, font=("Arial", 12))
+entry1.pack(pady=5)
+
+label2 = tk.Label(root, text="Enter Partner's Name:", font=("Arial", 12))
+label2.pack(pady=10)
+entry2 = tk.Entry(root, font=("Arial", 12))
+entry2.pack(pady=5)
+# Buttons
+calculate_btn = tk.Button(root, text="Calculate", command=calculate_flames, font=("Arial", 12), bg="lightblue")
+calculate_btn.pack(pady=10)
+
+reset_btn = tk.Button(root, text="Reset", command=reset_fields, font=("Arial", 12), bg="lightgray")
+reset_btn.pack(pady=10)
+
+# Output area
+result_label = tk.Label(root, text="", font=("Arial", 14, "bold"), fg="blue")
+result_label.pack(pady=20)
+
+# Run the application
+root.mainloop()

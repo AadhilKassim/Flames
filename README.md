@@ -65,7 +65,7 @@ Have questions or suggestions? Feel free to reach out:
 - **GitHub:** 
     - [Aadhil Kassim](https://github.com/AadhilKassim)
     - [Aakash Rajeev](https://github.com/aakshpy)
-    - [Aaron Sony](https://github.com/Aaron-techy)
+    - [Aaron Issac](https://github.com/Aaron-techy)
     - [Aswin Krishna](https://github.com/Aswinkrishna77)
 
 ---
